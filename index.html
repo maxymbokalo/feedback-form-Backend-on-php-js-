@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+    <header>
+        <h1><a href=""><img  src="https://amp.businessinsider.com/images/59e4bb5ed4e92020008b586c-750-563.jpg" alt="photo"
+                             height="120px" width="152px"></a></h1>
+
+        <h2 style="padding-right: 200px">John Smith</h2><br/>
+        <span class="tel">
+                    <img src="https://cdn.iconscout.com/public/images/icon/premium/png-512/call-phone-calling-ringing-telephone-3a17b0239d2436a8-512x512.png"
+                         height="30px" width="30px" >  380933211223<br/>
+                    <img src="http://freebackgroundcheck.org/blog/wp-content/uploads/2017/12/find-out-someones-address.png"
+                         height="30px" width="30px"> Ukraine  ,Lviv<br/>
+                    <img src="https://vista.today/wp-content/uploads/2018/03/Email_bdtbt.png"
+                         height="30px" width="30px"> adress@mail.com</span>
+
+    </header>
+
+</div>
+<div class="main">
+
+    <h3>Junior Java Developer</h3>
+    <h1>Personal skills</h1>
+    <table border="1" style=" padding-top: 16px; border-style: groove">
+        <tr>
+            <th><h2>(Java)<progress max="100" value="80"></progress></h2></th>
+            <th><h2>(SQL)<progress max="100" value="75"></progress></h2></th>
+        </tr>
+        <tr>
+            <td><h2>(JavaScript)<progress max="100" value="60"></progress></h2></td>
+            <td><h2>(C++)<progress max="100" value="40"></progress></h2></td>
+        </tr>
+    </table><br/>
+
+    <h1>Education</h1>
+    <span>Went to primary school at Pymble Public School and later attended the
+            all-boys Knox Grammar School on Sydney's Upper North Shore, where he starred in
+            its production of My Fair Lady in 1985 and became the school captain in 1986.[13]
+            Following graduation, he spent a gap year working at Uppingham School in England as a Physical Education teacher.
+            [14][15] On his return, he studied at the University of Technology,
+            Sydney, graduating in 1991 with a BA in Communications.[16] In his final year of university, he took a
+            drama course to make up additional credits. The class did Václav Havel's The Memorandum with Jackman as the lead.
+        </span><br/><br/><br/>
+    <h1 style="padding-right: 20px">Frameworks</h1>
+    <table>
+        <tr>
+            <th>JavaCore</th>
+            <th>JavaScript</th>
+
+        </tr>
+        <tr>
+            <td>Hibernate</td>
+            <td>ReactJS</td>
+
+        </tr>
+        <tr>
+            <td>Spring MVC</td>
+            <td>Vue.js</td>
+
+        </tr>
+        <tr>
+            <td>Jackson</td>
+            <td>Meteor.js</td>
+
+        </tr>
+        <tr>
+            <td>Hypres</td>
+
+        </tr>
+    </table><br/>
+    <h1>Languages</h1>
+    <table border="1" style=" padding-top: 16px; border-style: groove">
+        <tr>
+            <th><h2>English(B2)<progress max="100" value="65"></progress></h2></th>
+            <th><h2>Ukrainian(Mother tongue)<progress max="100" value="100"></progress></h2></th>
+        </tr>
+        <tr>
+            <td><h2>Russian<progress max="100" value="85"></progress></h2></td>
+        </tr>
+    </table>
+    <h1 style="padding-top: 25px;">Feedback<img src="https://www.burkert.com/var/buerkert/storage/images/media/images/speech-bubbles/3211190-1-eng-INT/speech-bubbles.jpg"
+                                                height="40px" width="100px"></h1>
+
+    <form id="com_form">
+        <input id="senderName" type="text" placeholder="Name" name="Name" />
+        <input id="senderEmail" type="email" placeholder="E-mail" name="Email" />
+        <textarea id="senderText" placeholder="Message" name="message" rows="10" cols="45"></textarea>
+        <input type="submit" value="Send"/>
+    </form>
+    <button onclick='location.href="http://localhost/comments.html"'>Show Feedback</button>
+
+    </div>
+</div>
+<script src="sendComment.js"></script>
+</body>
+</html>
